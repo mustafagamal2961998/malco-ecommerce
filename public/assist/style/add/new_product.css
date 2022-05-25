@@ -1,0 +1,98 @@
+/* Start Add New Product Style*/
+/* Include font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*************************************************************/
+/*All element`s proprities */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a:link{
+    text-decoration: none;
+}
+/*************************************************************/
+/* Body prop */
+
+/*************************************************************/
+/* Start Add New Product Form Box */
+.add-new-product-contaniner{
+    width: 100%;
+    
+}
+.add-new-product-contaniner .add-new-product-content{
+    width: 100%;
+    text-align: center;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product{
+    width: 60%;
+    margin:auto;
+    position: relative;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product form{
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+    top: 100px;
+    text-align: center;
+    background-color: rgb(246, 242, 242);
+    font-size: 20px;
+    font-family: system-ui;
+    border-radius: 10px;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product form .product-input{
+    display: inline-block;
+    background-color: rgb(232, 227, 227);
+    vertical-align: middle;
+    width: 49%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid #284d97;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product form textarea{
+    resize: none;
+    font-size: 18px;
+    border: 2px solid #284d97;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 120px;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product form input[type="file"]{
+    width: 90%;
+    padding: 68px 0px;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product form input[type="text"],input[type="number"],select{
+    height: 35px;
+    border: 2px solid #284d97;
+    border-radius: 5px;
+    margin:10px auto;
+    font-size: 18px;
+    width: 90%;
+    padding-left: 10px;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product form input[type="text"]:focus,input[type="number"]:focus ,textarea:focus,select:focus{
+    border: 2px solid #284d97;
+    outline: none;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product form input[type="submit"]{
+    width: 90%;
+    padding: 10px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#133476;
+    color: #fff;
+    border: 2px solid #284d97;
+}
+.add-new-product-contaniner .add-new-product-content .add-new-product form input[type="submit"]:hover{
+    transition: 0.5s;
+    background-color: #284d97;
+}
+

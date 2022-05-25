@@ -1,0 +1,306 @@
+/* Start main css for[ Header ] file */
+/* Include font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*************************************************************/
+/*All element`s proprities */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a:link{
+    text-decoration: none;
+}
+/*************************************************************/
+/* Body prop */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*************************************************************/
+/* Start info navbar */
+.navbar-container{
+    width: 100%;
+    height: 50px;
+    background-color: #284d97;
+}
+.navbar-container .navbar-content{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-container .navbar-content .navbar-box .logo{
+    position: absolute;
+    font-size: 30px;
+    font-family: sans-serif;
+    left: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.navbar-container .navbar-content .navbar-box .buttons-control-list{
+    width: 100%;
+    position: relative;
+    text-align: right;
+}
+.navbar-container .navbar-content .navbar-box .buttons-control-list .buttons-control-item{
+    display: inline-block;
+    list-style: none;
+    padding: 14px;
+    width: 120px;
+    text-align: center;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.navbar-container .navbar-content .navbar-box .buttons-control-list .buttons-control-item:hover{
+    transition: 0.5s all;
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar-container .navbar-content .navbar-box .buttons-control-list a{
+    color: #ffffff;
+}
+
+/* Left Menu Icon */
+.show-left-menu-icon-container{
+    position: absolute;
+    top: 50px;
+    z-index: 99999999;
+    font-size: 30px;
+    left: 1px;
+    cursor: pointer;
+    padding: 5px;
+}
+.show-left-menu-icon-container:hover{
+    transition: 0.5s;
+    color: #222222;
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+}
+
+/* Start Content Style */
+.content-container{
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    background-color: rgb(243, 243, 243);
+    height: auto;
+    display: none;
+    z-index: 99999999;
+}
+.content-container .content-content{
+    width: 100%;
+}
+
+.content-container .content-content .dashboard-content .menu-container{
+    width: 100%;
+    background-color: #222222;
+    height: 100%;
+    padding: 10px 20px;
+    /* border-radius: 10px; */
+
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content{
+    width: 100%;
+    height: 100%;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu{
+    width: 100%;
+    height: 100%;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-header-container{
+    width: 100%;
+    height: auto;
+    background-color: #222222;
+    border-bottom: 1px solid #2e2e2e;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-header-container .menu-header-content{
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    text-align: left;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-header-container .menu-header-content div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-header-container .menu-header-content .menu-user-avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:3px solid #284d97;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-header-container .menu-header-content .menu-user-avatar img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-header-container .menu-user-name{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* Left Menu Links Style */
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-link-container{
+    width: 100%;
+    height: 100%;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-link-container .menu-link-content{
+    width: 100%;
+    height: auto;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-link-container .menu-link-content .navabr-list{
+    width: 100%;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-link-container .menu-link-content .navabr-list .department-title{
+    color: silver;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-link-container .menu-link-content .navabr-list .navbar-item{
+    list-style: none;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-link-container .menu-link-content .navabr-list a{
+    color: #ffffff;
+}
+
+.content-container .content-content .dashboard-content .menu-container .menu-content .menu .menu-link-container .menu-link-content .navabr-list .navbar-item:hover{
+    transition: 0.4s;    
+    background-color: #284d97;
+    margin-left: 10px;
+}
+
+/* View Contnet Style */
+.view-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #ffffff;
+    position: absolute;
+    top: 90px;
+    border-radius: 5px;
+    right: 0px;
+}
+.view-container .view-content{
+    width: 100%;
+
+}
+.view-container .view-content .view{
+    width: 100%;
+    text-align: center;
+    
+}
+.view-container .view-content .view table{
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    padding: 10px;
+}
+.view-container .view-content .view table tr td img {
+    border-radius: 6px;
+}
+/* Edit product form style  */
+.edite-product-form-container{
+    position:absolute;
+    top: 0;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+.edite-product-form-container .edit-product-form-content{
+    width: 100%;
+    height: 100%;
+}
+.edite-product-form-container .edit-product-form-content .edit-form-box{
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(255,255, 255);
+    position:relative;
+    top: 150px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.edite-product-form-container .edit-product-form-content .edit-form-box textarea{
+    width: 90%;
+    border:1px solid #284d97;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    height: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.edite-product-form-container .edit-product-form-content .close-edit-product-form-box{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #284d97;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.edite-product-form-container .edit-product-form-content .close-edit-product-form-box:hover{
+    transition: 0.3s;
+    color: red;
+
+}
+.edite-product-form-container .edit-product-form-content .edit-form-box input[type="text"],input[type="number"]{
+    width: 90%;
+    height: 30px;
+    border:1px solid #284d97;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.edite-product-form-container .edit-product-form-content .edit-form-box input[type="submit"]{
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #284d97;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edite-product-form-container .edit-product-form-content .edit-form-box input[type="submit"]:hover{
+    transition: 0.5s;
+    background-color: #1b3a78;
+}
+.edite-product-form-container .edit-product-form-content .edit-form-box .edit-product-input{
+    margin-top: 10px;
+}
+.cotrol-btn span{
+    margin-left: 10px;
+}
+
+/* Product  Data Style*/
+.view-container .view-content .view table tr th{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(232, 232, 232);
+    padding: 5px 0px;
+}
+.view-container .view-content .view table tr td{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+/* Management Products */

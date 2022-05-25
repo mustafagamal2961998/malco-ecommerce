@@ -1,0 +1,9 @@
+/* Start Home Responsive */
+@media only screen and (max-width: 720px) {
+    .right-menu-container{
+        display: none;
+    }
+    .right-menu-icon{
+        display: block;
+    }
+  }
